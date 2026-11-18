@@ -1,0 +1,8 @@
+{
+  "sessions": [
+    { "name": "Hyprland", "cmd": ["start-hyprland"] },
+    { "name": "Sway Moonlight", "cmd": ["sway", "-c", "/home/your_username/.exampleconfig", "moonlight"] },
+    { "name": "Plasma Wayland", "cmd": ["startplasma-wayland"] },
+    { "name": "Drop to TTY", "cmd": ["bash", "-l"] }
+  ]
+}

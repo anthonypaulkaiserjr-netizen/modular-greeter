@@ -1,0 +1,86 @@
+* {
+  border-radius: 0;
+  font-family: "Source Code Pro", "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  color: #ffffff;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+window {
+  background-color: #111111;
+}
+
+.ly-art {
+  font-size: 9px;
+  line-height: 0.9;
+  color: #888888;
+}
+
+.login-card {
+  background-color: rgba(17, 17, 17, 0.92);
+  border: 1px solid #222222;
+  padding: 24px;
+  min-width: 380px;
+}
+
+.title-label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.muted-label {
+  color: #888888;
+  min-width: 72px;
+}
+
+.cycler-row {
+  background-color: #181818;
+  border: 1px solid #222222;
+  padding: 6px 10px;
+}
+
+/* Override GTK4 default Adwaita button gradients */
+button.cycle-btn {
+  background-image: none;
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  padding: 2px 10px;
+  min-height: 24px;
+}
+
+button.cycle-btn label {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+button.cycle-btn:hover,
+button.cycle-btn:focus {
+  background-image: none;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+button.cycle-btn:hover label,
+button.cycle-btn:focus label {
+  color: #111111;
+}
+
+entry {
+  background-image: none;
+  background-color: #181818;
+  border: 1px solid #333333;
+  padding: 8px 10px;
+  color: #ffffff;
+}
+
+entry:focus {
+  border-color: #ffffff;
+  outline: none;
+}
+
+.status-label {
+  color: #ff5555;
+  font-size: 12px;
+}

@@ -1,0 +1,6 @@
+{
+  "users": ["your_username", "guest"],
+  "bg_mode": "ly",
+  "bg_path": "/etc/greetd/my-greeter/wallpaper.png",
+  "block_size": 18
+}
